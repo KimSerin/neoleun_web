@@ -1,0 +1,45 @@
+@charset  "utf-8" ;
+
+/ * 초기화 * /
+body ,  div ,  ul ,  li ,  dl ,  dt ,  ol ,  h1 ,  h2 ,  h3 ,  h4 ,  h5 ,  h6 ,  input ,  fieldset ,  legend ,  p ,  select ,  table ,  th ,  td ,  tr ,  textarea ,  button ,  form { 여백 : 0 ; 패딩 :0 ;}
+
+/ * 링크 초기화 * /
+a { 색상 : # 222 ; 텍스트 장식 : 없음;}
+a : hover { color : # 888 ;}
+
+/ * 초기화 초기화 * /
+body ,  input ,  textarea ,  select ,  button ,  table { font-family : ' Nanum Gothic' , AppleSDGothicNeo-Regular , 'Malgun Gothic' , '맑은 도형' , dotum , '돋움' , sans-serif; 색상 : # 222 ; 폰트 크기 : 13 픽셀 ; 줄 높이 : 1.5 ;}
+
+/ * 폰트 스타일 초기화 * /
+em , 주소 { font-style : normal;}
+
+/ * 블릿 기호 초기화 * /
+. dl , ul , li , ol , 메뉴 { 목록 스타일 : 없음;}
+
+/ * 제목 태그 초기화 * /
+h1 , h2 , h3 , h4 , h5 , h6 { 글꼴 크기 : 13 px ; 색상 : # 222 ; 글꼴 두께 : 보통;}
+
+/ * 초기화 초기화 * /
+img ,  fieldset { border : 0 none;}
+
+/ * 버튼 초기화 * /
+버튼 { 테두리 : 0 ;}
+
+/ * IR 효과 * /
+/ * 의미있는 이미지의 대체 텍스트를 제공하는 경우 * /
+. ir_pm { 디스플레이 : 블록; 오버플로 : 숨김; 글꼴 크기 : 0 ;  줄 높이 : 0 ; 텍스트 들여 쓰기 : -9999px;}
+/ * 의미있는 이미지의 대체 텍스트로 이미지가 없어도 텍스트를 보여 주려고 할 때 * /
+. ir_wa { 디스플레이 : 블록; 오버플로 : 숨김; 위치 : 상대; Z- 색인 : -1 ; 너비 : 100 % ; 높이 : 100 % ;}
+/ * 대체 텍스트가 아닌 접근성을위한 텍스트를 제공 할 때 * /
+. ir_su { 오버플로 : 숨김; 위치 : 절대; 너비 : 0 ; 높이 : 0 ; 줄 높이 : 0 ; 텍스트 들여 쓰기 : -9999px;}
+
+/ * 여백, 패딩 * /
+. mt10 { margin-top : 10 px  ! 중요 ;}
+. mt15 { margin-top : 15 px  ! 중요 ;}
+. mt20 { margin-top : 20 px  ! 중요 ;}
+. mt25 { margin-top : 25 px  ! 중요 ;}
+. mt30 { margin-top : 30 px  ! 중요 ;}
+. mt35 { margin-top : 35 px  ! 중요 ;}
+. mt40 { margin-top : 40 px  ! 중요 ;}
+. mt45 { margin-top : 45 px  ! 중요 ;}
+. mt50 { margin-top : 50 px  ! 중요 ;}
