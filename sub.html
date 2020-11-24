@@ -61,26 +61,58 @@
 <br>
 <br>
 <!--  게시판 -->
-    <h1>게시판</h1>
-    <div style="width:800px;">
-    <div style="margin:auto; width:100%">
-    <div style="float:right">
+    <h1 style="text-align:center;">게시판</h1>
+    <div style="width:800px;  margin: auto;">
+    <div style="margin:auto; width:100%;">
+    <div style="float:right;">
     <select name="year" id="year">
         <option value="전체검색" selected="">전체검색</option>
-        <option value="제목" selected="">제목</option>
-        <option value="작성자" selected="">작성자</option>
+        <option value="제목" >제목</option>
+        <option value="작성자" >작성자</option>
     </select>
+    <input type="text" name="text">
+    <button type="button" name="검색">검색</button>
     </div>
+<br>
+<br>    
+    <table border="1" text-align="center" style="clear:both; width:100%; text-align:center;">
+        <tbody>
+            <tr>
+                <td width="50">번호</td>
+                <td width="400">제목</td>
+                <td width="50">작성자</td>
+                <td width="100">등록일시</td>
+                <td width="50">조회수</td>
+            </tr>
+            <th colspan="5"></th>
+            <tr>
+                <td width="50">1</td>
+                <td width="400">notice</td>
+                <td width="50">게시자</td>
+                <td width="100">20.11.24</td>
+                <td width="50">1</td>
+            </tr>
+        </tbody>
+    </table>
     </div>
+<br>
+    <div style="float:right;">
+    <button type="button" name="목록">목록</button>
+    <button type="button" name="글쓰기" onClick="location.href='.html'">글쓰기</button>
+    </div>  
     </div>
 <!-- // 게시판 -->
 <br>
-
+<br>
+    <div style="float:right; display:block;>
 <!-- 탑버튼 -->
-<a href="#moveTop" id="topOnly" style="float:right; display:block;">
+    <a href="#moveTop" id="topOnly" >
     <img src="" alt="위로"></a>
 <!-- //탑버튼 -->
-
+    </div>
+<br>
+<br>
+<br>
 <!-- footer -->       
         <div id="footer"style="background-color:#999; height:100px; color:white;">
             <div class="container mt25">
